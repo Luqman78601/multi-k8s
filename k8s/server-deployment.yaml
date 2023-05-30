@@ -18,7 +18,7 @@ spec:
           ports:
             - containerPort: 5000
           env:
-            - name: REDIS_Host
+            - name: REDIS_HOST
               value: redis-cluster-ip-service
             - name: REDIS_PORT
               value: '6379'
